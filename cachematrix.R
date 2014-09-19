@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+## This is the main fucniton has all functions to
+## store a matrix, caluclate the inverse and set the inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -19,6 +21,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## This function returns the inverse of the matrix,
+## and if it is previously calculated it returns 
+## the previously stored value
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
